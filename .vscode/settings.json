@@ -1,0 +1,21 @@
+{
+    "cSpell.words": [
+        "ARGB",
+        "artprd",
+        "artprovider",
+        "aspectptr",
+        "aspectratio",
+        "aspr",
+        "generatedimages",
+        "imagesize",
+        "negprompt",
+        "negpromptctr",
+        "nofotpctr",
+        "selectedaspect",
+        "selectedstyle",
+        "sizeoutputnumber",
+        "widthofdevice"
+    ],
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "cmake.ignoreCMakeListsMissing": true
+}
