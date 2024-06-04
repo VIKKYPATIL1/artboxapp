@@ -14,8 +14,8 @@ class _CheckBoxStyleState extends State<CheckBoxStyle> {
   bool? isCheckBasic = true;
   bool? isCheckPremium = false;
   bool? isCheckPro = false;
-  Icon check = Icon(Icons.check_circle_rounded);
-  Icon uncheck = Icon(Icons.circle_outlined);
+  Icon check = const Icon(Icons.check_circle_rounded);
+  Icon uncheck = const Icon(Icons.circle_outlined);
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -33,7 +33,7 @@ class _CheckBoxStyleState extends State<CheckBoxStyle> {
                       )));
             },
             icon: isCheckBasic == true ? check : uncheck,
-            label: Text(r'Basic: $ 9.99/month')),
+            label: const Text(r'Basic: $ 9.99/month')),
         const SizedBox(
           height: 10,
         ),
@@ -50,7 +50,7 @@ class _CheckBoxStyleState extends State<CheckBoxStyle> {
                       )));
             },
             icon: isCheckPremium == true ? check : uncheck,
-            label: Text(r'Premium: $39.99/month')),
+            label: const Text(r'Premium: $39.99/month')),
         const SizedBox(
           height: 10,
         ),
@@ -67,7 +67,7 @@ class _CheckBoxStyleState extends State<CheckBoxStyle> {
                       )));
             },
             icon: isCheckPro == true ? check : uncheck,
-            label: Text(r'Pro: $69.99/month')),
+            label: const Text(r'Pro: $69.99/month')),
         const SizedBox(
           height: 10,
         ),
